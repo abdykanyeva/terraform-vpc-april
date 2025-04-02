@@ -1,5 +1,6 @@
 # terraform-vpc-april
 
+``` hcl
 
 module "april" {
   source  = "abdykanyeva/april/vpc"
@@ -12,3 +13,4 @@ module "april" {
   ip_on_launch = true
   
 }
+```
