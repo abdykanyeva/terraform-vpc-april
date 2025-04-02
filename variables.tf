@@ -25,6 +25,10 @@ variable ip_on_launch{
 }
 
 variable port {
-    type = list
+    type = list(object({
+        from_port = number
+        to_port = number
+        
+    }))
 }
 
