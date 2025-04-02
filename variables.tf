@@ -24,3 +24,7 @@ variable ip_on_launch{
     type = bool
 }
 
+variable port {
+    type = list
+}
+
